@@ -15,10 +15,10 @@ st.info("first release")
 # warning
 st.warning("this version might have bugs and things not working as intended")
 
-#error prompt
-#st.error (".")
+# error prompt
+# st.error (".")
 # success prompt
-#st.success(".")
+# st.success(".")
 
 # write
 st.write("Coded by Bobcat88")
