@@ -3,4 +3,4 @@ add current balance
 add currency picker + currency signs management
 a datetime manager, maybe a calendar for date of spending 
 database ?
-how to integrate with Streamlit for nice interface.
+how to integrate with Streamlit for webUI.
