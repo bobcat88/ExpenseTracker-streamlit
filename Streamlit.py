@@ -1,4 +1,5 @@
 import streamlit as st
+st.image("Budg€t logo.svg")
 
 # Title
 st.title("Budg€t")
@@ -22,3 +23,14 @@ st.warning("this version might have bugs and things not working as intended")
 
 # write
 st.write("Coded by Bobcat88")
+
+# Widgets
+
+# pick list
+st.selectbox("pick from list", ["A", "B", "C"])
+
+# Multi select from list
+st.multiselect("select all applicable tag", ["1", "2", "3"])
+
+# button
+st.button("I\'m just a button ")
