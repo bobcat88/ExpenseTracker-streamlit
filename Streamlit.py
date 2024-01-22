@@ -1,4 +1,5 @@
 import streamlit as st
+
 st.image("Budget app logo.svg")
 
 # Title
@@ -59,3 +60,9 @@ login_email = st.sidebar.text_input("email address")
 login_password = st.sidebar.text_input("your password")
 
 st.sidebar.button("Login")
+
+#DataVisualisation//if needed import panda/numpy
+
+#st.title("spending this month")
+#data = panda.DataFrame(numpy.random.randint(30,1),columns=["Days", "spendings"])
+#st.bar_chart(data)
